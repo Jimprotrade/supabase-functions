@@ -1,0 +1,9 @@
+{
+  "name": "supabase-functions",
+  "version": "1.0.0",
+  "description": "Supabase Edge Functions",
+  "scripts": {
+    "deploy": "npx supabase functions deploy send-invite"
+  },
+  "dependencies": {}
+}
