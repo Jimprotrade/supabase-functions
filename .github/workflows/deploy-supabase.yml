@@ -18,9 +18,6 @@ jobs:
       with:
         node-version: 18
 
-    - name: Install Dependencies
-      run: npm install --no-fund --no-audit
-
     - name: Deploy Supabase Edge Function
       run: |
         npx --yes supabase@2.12.1 functions deploy send-invite \
